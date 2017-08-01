@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+	<title>The Crystals Collector Game</title>
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+<body>
+	<script type="text/javascript"></script>
+
+
+
+	<div class = "head">
+	<h1>The Crystals Collector Game</h1>
+	</div>
+
+
+	<div class = "rule"
+	<h3><p>Rules:</p>
+	<p>You will be given a randon number at the start of the game.</p>
+	<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+	<p>You win the game by matching yuor total score to random number, you lose the game if your total score goes above the random number.</p>
+	<p>The value of each crystal is hidden from you until you click on it.</p>
+	<p>Each time when the game starts, the game will change the value of each crystal.</p>
+	</div>
+
+	<h1>Number to Guess: <span id="numberToGuess"></span></h1>
+
+  
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	
+
+
+	  var numberToGuess = function() {
+	  	this.numberToGuess = this[Math.floor(Math.random()*100)+1]
+	  } ;
+
+	  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
